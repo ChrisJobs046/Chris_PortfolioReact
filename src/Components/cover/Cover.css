@@ -19,7 +19,7 @@
 
 .cover-container > h1 {
   color: white;
-  font-size: 100px;
+  font-size: 6em;
 }
 
 .cover-container > p {
@@ -28,7 +28,14 @@
   font-size: 32px;
 }
 
-@media screen and (max-width: 960px) {
+@media screen amd (max-width: 1024) {
+  .cover-container > h1 {
+    font-sizr: 6em;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 990px) {
   .cover-container > h1 {
     font-size: 70px;
     text-align: center;
