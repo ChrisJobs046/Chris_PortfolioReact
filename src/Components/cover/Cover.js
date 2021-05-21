@@ -47,7 +47,7 @@ const Cover = () => {
         <video className='video' src={coverVideo} autoPlay loop muted />
         <h1>Christopher Alexander </h1>
         <hr></hr>
-        <p> Full Stack Developer | Game Developer🎮 | Studen | Entrepeneur </p>
+        <p> Full Stack Developer | Game Developer🎮 | Studen | </p>
         <hr />
         <ul className='social'>
           <li>
