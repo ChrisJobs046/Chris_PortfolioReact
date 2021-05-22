@@ -13,7 +13,7 @@ export default class Resume extends Component {
           <div className='nine columns main-col'>
             <div className='row item'>
               <div className='twelve columns'>
-                <h3>technological institute of the americas Itla</h3>
+                <h3>Technological Institute of the Americas Itla</h3>
                 <p className='info'>
                   Software development <span>•</span>{" "}
                   <em className='date'>August 2018 | December 2021</em>

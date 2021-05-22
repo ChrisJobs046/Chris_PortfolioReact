@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./Portfolio.css";
 
 export default class Portfolio extends Component {
   render() {
@@ -149,7 +150,7 @@ export default class Portfolio extends Component {
           <div id='modal-01' className='popup-modal mfp-hide'>
             <img
               className='scale-with-grid'
-              src='images/portfolio/modals/m-juventud_solidaria.png'
+              src='images/portfolio/modals/m-Juventud_Solidaria.jpg'
               alt=''
             />
             <div className='description-box'>
@@ -164,7 +165,7 @@ export default class Portfolio extends Component {
               </span>
             </div>
             <div className='link-box'>
-              <a href='http://juventudsolidariard.org/'>Details</a>
+              <a href='https://chrisjobs046.github.io/D_JS/'>Details</a>
               <a href={() => false} className='popup-modal-dismiss'>
                 Close
               </a>

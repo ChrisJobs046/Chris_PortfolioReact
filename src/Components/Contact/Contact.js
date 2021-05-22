@@ -35,9 +35,9 @@ export default class Contact extends Component {
     formData.append("email", email);
     formData.append("message", message);
 
-    // await fetch(ENDPOINT, { method: "POST", body: formData }).then(() => {
-    //   this.clearInput();
-    // });
+    await fetch(ENDPOINT, { method: "POST", body: formData }).then(() => {
+        this.clearInput();
+      });
   }
 
   render() {
@@ -131,15 +131,6 @@ export default class Contact extends Component {
               <br />
             </div>
           </div>
-          <aside className='four columns footer-widgets'>
-            <div className='widget widget_contact'>
-              <h4>Address and Phone</h4>
-              <p className='address'></p>
-            </div>
-            <div className='widget widget_tweets'>
-              <h4 className='widget-title'>Latest Tweets</h4>
-            </div>
-          </aside>
         </div>
       </section>
     );

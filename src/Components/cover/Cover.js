@@ -10,7 +10,7 @@ const Cover = () => {
           <a className='mobile-btn' href='#nav-wrap' title='Show navigation'>
             Show navigation
           </a>
-          <a href='#' className='mobile-btn' title='Hide navigation'>
+          <a href={() => false} className='mobile-btn' title='Hide navigation'>
             Hide navigation
           </a>
           <ul id='nav' className='nav'>
@@ -47,7 +47,7 @@ const Cover = () => {
         <video className='video' src={coverVideo} autoPlay loop muted />
         <h1>Christopher Alexander </h1>
         <hr></hr>
-        <p> Full Stack Developer | Game Developer🎮 | Studen | </p>
+        <p> Full Stack Developer | Game Developer<span role="img" aria-label="control">🎮</span> | Studen </p>
         <hr />
         <ul className='social'>
           <li>

@@ -19,21 +19,29 @@ export default class Certification extends Component {
                 <div className='sub-title'></div>
                 {/*//education-body*/}
                 <div className='desc'>
-                  <b>Curso de Frontend Developer Platzi</b>{" "}
+                  <b>Curso de Frontend Developer Platzi</b>{"   "}
                   <a
                     target='_blank'
-                    rel='noreferrer'
+                    rel='noopener noreferrer'
                     href='https://platzi.com/p/rchris/curso/1640-frontend-developer/diploma/detalle/'
                   >
                     Certificate link
                   </a>
                   <br />
-                  <b>PCSD Certified AR & VR Developer Lever 1</b>
+                  <b>PCSD Certified AR & VR Developer Lever 1</b>{"   "}
+                  <a
+                    className='disabled-link'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    href='https://platzi.com/p/rchris/curso/1640-frontend-developer/diploma/detalle/'
+                  >
+                    Certificate link
+                  </a>
                   <br />
-                  <b>Curso Básico de JavaScript Platzi</b>{" "}
+                  <b>Curso Básico de JavaScript Platzi</b>{"   "}
                   <a
                     target='_blank'
-                    rel='noreferrer'
+                    rel='noopener noreferrer'
                     href='https://platzi.com/p/rchris/curso/1814-basico-javascript/diploma/detalle/'
                   >
                     Certificate link
@@ -41,7 +49,15 @@ export default class Certification extends Component {
                   <br />
                   <b>
                     Aprende Javascript ES9, HTML, CSS3 y NodeJS desde cero Udemy
-                  </b>
+                  </b>{"   "}
+                  <a
+                    className='disabled-link'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    href='https://platzi.com/p/rchris/curso/1640-frontend-developer/diploma/detalle/'
+                  >
+                    Certificate link
+                  </a>
                   <br />
                 </div>
               </div>

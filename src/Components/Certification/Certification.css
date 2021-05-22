@@ -37,3 +37,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
     padding-top: 60px;
     padding-bottom: 60px;
 }
+
+.disabled-link {
+    pointer-events: none;
+}
