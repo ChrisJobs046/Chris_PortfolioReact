@@ -33,9 +33,7 @@ export default class Portfolio extends Component {
                   <a href='#modal-02'>
                     <img
                       alt=''
-                      src='images/portfolio/Sales_Systen.jpg'
-                      width='600'
-                      height='400'
+                      src='images/portfolio/Sales_Systen.png'
                     />
                     <div className='overlay'>
                       <div className='portfolio-item-meta'>
@@ -52,11 +50,11 @@ export default class Portfolio extends Component {
               <div className='columns portfolio-item'>
                 <div className='item-wrap'>
                   <a href='#modal-03'>
-                    <img alt='' src='images/portfolio/judah.jpg' />
+                    <img alt='' src='images/portfolio/blazor-logo.png'/>
                     <div className='overlay'>
                       <div className='portfolio-item-meta'>
-                        <h5>Judah</h5>
-                        <p>Webdesign</p>
+                        <h5>BlazorSistemaFacturacion</h5>
+                        <p>Full Stack Developer</p>
                       </div>
                     </div>
                     <div className='link-icon'>
@@ -161,7 +159,7 @@ export default class Portfolio extends Component {
               </p>
               <span className='categories'>
                 <i className='fa fa-tag' />
-                Branding, Webdeveloper
+                Branding, Web developer
               </span>
             </div>
             <div className='link-box'>
@@ -200,23 +198,24 @@ export default class Portfolio extends Component {
           <div id='modal-03' className='popup-modal mfp-hide'>
             <img
               className='scale-with-grid'
-              src='images/portfolio/modals/m-judah.jpg'
+              src='images/portfolio/modals/m-BlazorFacturacion.jpg'
               alt=''
             />
             <div className='description-box'>
-              <h4>Judah</h4>
+              <h4>BlazorSistemaFacturacion</h4>
               <p>
-                Proin gravida nibh vel velit auctor aliquet. Aenean
-                sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                ipsum, nec sagittis sem nibh id elit.
+              Web billing system made in blazor on the server side, 
+              it has integrated authentication and authorization of users,
+              maps of the businesses added to the system as well as a list of products, materials, 
+              clients and services.
               </p>
               <span className='categories'>
                 <i className='fa fa-tag' />
-                Branding
+                Branding, Full Stack Developer
               </span>
             </div>
             <div className='link-box'>
-              <a href='http://www.behance.net'>Details</a>
+              <a href='http://rchris046-001-site1.dtempurl.com/'>Details</a>
               <a href={() => false} className='popup-modal-dismiss'>
                 Close
               </a>

@@ -23,11 +23,49 @@ export default class Testimonials extends Component {
                   </li>
                   <li>
                     <blockquote>
-                      <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                        nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                      <p>You can't connect the dots looking forward, you can only connect them looking backward.
+                        So you have to trust that they will somehow connect in the future. You have to trust something,
+                        your instinct, destiny, life, karma, whatever. 
                       </p>
-                      <cite>Mr. Adobe</cite>
+                      <cite>Steve Jobs</cite>
+                    </blockquote>
+                  </li>
+                  <li>
+                    <blockquote>
+                      <p>The secret of human existence is not only in living, but also in knowing what to live for.  
+                      </p>
+                      <cite>Fiodor Dostoievski</cite>
+                    </blockquote>
+                  </li>
+                  <li>
+                    <blockquote>
+                      <p>We are in such a hurry to do, write and let our voice be heard in the silence of eternity,
+                        that we forget the only really important thing: LIVE!   
+                      </p>
+                      <cite>Robert Louis Stevenson</cite>
+                    </blockquote>
+                  </li>
+                  <li>
+                    <blockquote>
+                      <p>Perfection is achieved not when there is nothing more to add, but when there is nothing more to take away. 
+                      </p>
+                      <cite>Antoine de Saint-Exupéry</cite>
+                    </blockquote>
+                  </li>
+                  <li>
+                    <blockquote>
+                      <p>When you are inspired by some great purpose, by some extraordinary project, thoughts break down the barriers; the mind transcends its limitations,
+                        consciousness expands in all directions and you find yourself in a wonderful new world. Sleeping strengths, abilities, and talents come to life.
+                        In that moment you realize that you are much bigger than you could have ever dreamed of.   
+                      </p>
+                      <cite>Patañjali</cite>
+                    </blockquote>
+                  </li>
+                  <li>
+                    <blockquote>
+                      <p>What really matters in life are not the goals we set ourselves, but the paths we follow to achieve them. 
+                      </p>
+                      <cite>Peter Bamm</cite>
                     </blockquote>
                   </li>
                 </ul>

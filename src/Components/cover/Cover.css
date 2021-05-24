@@ -28,9 +28,9 @@
   font-size: 32px;
 }
 
-@media screen amd (max-width: 1024) {
+@media screen and (max-width: 1024) {
   .cover-container > h1 {
-    font-sizr: 6em;
+    font-size: 6em;
     text-align: center;
   }
 }

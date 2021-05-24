@@ -51,7 +51,7 @@ export default class Contact extends Component {
           </div>
           <div className='ten columns'>
             <p className='lead'>
-              But I must explain to you how this whole misconception of
+              I must explain to you how this whole misconception of
               denouncing pleasure and praising pain was born, a complete account
               of the system, and exposing the real teachings of the great
               explorer of truth and will develop into the master builder of
