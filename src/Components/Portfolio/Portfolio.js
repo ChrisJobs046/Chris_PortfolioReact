@@ -63,7 +63,7 @@ export default class Portfolio extends Component {
                   </a>
                 </div>
               </div>
-              <div className='columns portfolio-item'>
+              {/* <div className='columns portfolio-item'>
                 <div className='item-wrap'>
                   <a href='#modal-04'>
                     <img alt='' src='images/portfolio/into-the-light.jpg' />
@@ -142,8 +142,8 @@ export default class Portfolio extends Component {
                     </div>
                   </a>
                 </div>
-              </div>
-            </div>
+              </div>*/}
+            </div> 
           </div>
           <div id='modal-01' className='popup-modal mfp-hide'>
             <img
