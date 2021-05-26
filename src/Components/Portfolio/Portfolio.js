@@ -63,14 +63,14 @@ export default class Portfolio extends Component {
                   </a>
                 </div>
               </div>
-              {/* <div className='columns portfolio-item'>
+              <div className='columns portfolio-item'>
                 <div className='item-wrap'>
                   <a href='#modal-04'>
-                    <img alt='' src='images/portfolio/into-the-light.jpg' />
+                    <img alt='' src='images/portfolio/react-1.svg' />
                     <div className='overlay'>
                       <div className='portfolio-item-meta'>
-                        <h5>Into The Light</h5>
-                        <p>Photography</p>
+                        <h5>Covid-19 Tracker</h5>
+                        <p>Frontend Developer</p>
                       </div>
                     </div>
                     <div className='link-icon'>
@@ -79,7 +79,7 @@ export default class Portfolio extends Component {
                   </a>
                 </div>
               </div>
-              <div className='columns portfolio-item'>
+              {/*<div className='columns portfolio-item'>
                 <div className='item-wrap'>
                   <a href='#modal-05'>
                     <img alt='' src='images/portfolio/farmerboy.jpg' />
@@ -224,23 +224,22 @@ export default class Portfolio extends Component {
           <div id='modal-04' className='popup-modal mfp-hide'>
             <img
               className='scale-with-grid'
-              src='images/portfolio/modals/m-intothelight.jpg'
+              src='images/portfolio/modals/m-React_Tracker.jpg'
               alt=''
             />
             <div className='description-box'>
-              <h4>Into the Light</h4>
+              <h4>Covid-19 Tracker</h4>
               <p>
-                Proin gravida nibh vel velit auctor aliquet. Aenean
-                sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                ipsum, nec sagittis sem nibh id elit.
+              It is an application made in reacts and axios in which material-ui components are used to show statistics 
+              of the state in which the countries affected by the covid, the infected, recovered and the dead are located. 
               </p>
               <span className='categories'>
                 <i className='fa fa-tag' />
-                Photography
+                Branding, Web Developer
               </span>
             </div>
             <div className='link-box'>
-              <a href='http://www.behance.net'>Details</a>
+              <a href='https://modest-haibt-fb73e9.netlify.app/'>Details</a>
               <a href={() => false} className='popup-modal-dismiss'>
                 Close
               </a>
